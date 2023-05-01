@@ -168,12 +168,8 @@
 //         echo $key.":". $val."<br>";
 // }
 
-// function add(int $a , int $b): string  {
-//         return $a+$b;
-// }
-// // echo add(3,4);
 
-// echo var_dump(add(2,3));
+
 
 // function add($value){
 //         $value +=5;
@@ -187,11 +183,11 @@
 // $count =0;
 // for($a=0;$a<=5;$a++){ 
 //         for($b=0;$b<$a;$b++){
-//                 echo $count;
-//         }
+        //                 echo $count;
+        //         }
 //         $count++;
 //         echo "<br>";
-        
+
 // }
 
 // echo '<br>';
@@ -203,29 +199,72 @@
 
 // $rev=0;
 // while($num>0){
-
-//         $temp= $num%10;
-//         $rev=($temp*10)+$temp;
-//         $num= (int)($num/10);
-//         $rev= (int)($rev/10);
-
-//         echo $rev;
-
+        
+        //         $temp= $num%10;
+        //         $rev=($temp*10)+$temp;
+        //         $num= (int)($num/10);
+        //         $rev= (int)($rev/10);
+        
+        //         echo $rev;
+        
 // }
 
 // echo '<br>';
 // echo '<br>';
 
 // for($a=0;$a<=5;$a++){  
-//         for($b=5;$b>=$a;$b--){  
+        //         for($b=5;$b>=$a;$b--){  
 //         echo "&nbsp;";  
 //         }  
 //         for($c=1;$c<=$a;$c++){  
-//         echo "*";  
-//         }  
-//         echo "<br>";  
-// }  
+        //         echo "*";  
+        //         }  
+        //         echo "<br>";  
+        // }  
+        
+
+// ------------functions-----------
+
+
+// $my_function = fn() => "abc";
+// echo $my_function();
+
+
+
+
+        // function name($name){
+                //         echo "my name is $name <br>";
+                // }
+// name("vaibhav");
+// name("shounty");
+// name("harry");
+// name("kamlesh");
+// name("rishbh");
+// name("none");
+
+// function add(int $a , int $b): string  {
+        //         return $a+$b;
+// }
+// // echo add(3,4);
+// echo var_dump(add(2,3));
+
+// -----------dates------------
+echo '<br>';
+// print todays date
+// echo date("Y-m-d");
+// echo '<br>';
+// $date=date_create("r");
+// date_add($date,date_interval_create_from_date_string("10 day"));
+// echo date_format($date,"Y-m-d");
+
+// $dob=date_create("20-06-1998");
+// $today_date=date_create($today_date='now');
+
+
+// $a=date_diff($dob,$today_date);
+// echo $a->format("%R%Y");
+
        
-        ?>
+?>
 </body>
 </html>
